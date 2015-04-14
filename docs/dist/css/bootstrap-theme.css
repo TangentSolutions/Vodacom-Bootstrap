@@ -4,26 +4,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-@font-face {
-  font-family: "Vodafone Lt";
-
-  src: url('fonts/VodafoneLt.tff');
-}
-@font-face {
-  font-family: "Vodafone ExB";
-
-  src: url('fonts/VodafoneExBd.tff');
-}
-@font-face {
-  font-family: "Vodafone Rg Bd";
-
-  src: url('fonts/VodafoneRgBd.tff');
-}
-@font-face {
-  font-family: "Vodafone Rg";
-
-  src: url('fonts/VodafoneRg.tff');
-}
 .btn-default,
 .btn-primary,
 .btn-success,
@@ -384,21 +364,21 @@ fieldset[disabled] .btn-danger.active {
   text-shadow: 0 1px 0 rgba(255, 255, 255, .25);
 }
 .navbar-inverse {
-  background-image: -webkit-linear-gradient(top, #3c3c3c 0%, #222 100%);
-  background-image:      -o-linear-gradient(top, #3c3c3c 0%, #222 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#3c3c3c), to(#222));
-  background-image:         linear-gradient(to bottom, #3c3c3c 0%, #222 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #1a1a1a 0%, #000 100%);
+  background-image:      -o-linear-gradient(top, #1a1a1a 0%, #000 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1a1a1a), to(#000));
+  background-image:         linear-gradient(to bottom, #1a1a1a 0%, #000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1a1a1a', endColorstr='#ff000000', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .active > a {
-  background-image: -webkit-linear-gradient(top, #080808 0%, #0f0f0f 100%);
-  background-image:      -o-linear-gradient(top, #080808 0%, #0f0f0f 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#080808), to(#0f0f0f));
-  background-image:         linear-gradient(to bottom, #080808 0%, #0f0f0f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff080808', endColorstr='#ff0f0f0f', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #000 0%, #060606 100%);
+  background-image:      -o-linear-gradient(top, #000 0%, #060606 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#060606));
+  background-image:         linear-gradient(to bottom, #000 0%, #060606 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff000000', endColorstr='#ff060606', GradientType=0);
   background-repeat: repeat-x;
   -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, .25);
           box-shadow: inset 0 3px 9px rgba(0, 0, 0, .25);
@@ -603,5 +583,33 @@ fieldset[disabled] .btn-danger.active {
   border-color: #e6e6e6;
   -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1);
           box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1);
+}
+@font-face {
+  font-family: "VodafoneLight";
+
+  src: url('fonts/VodafoneLt.tff');
+}
+@font-face {
+  font-family: "Vodafone ExB";
+
+  src: url('fonts/VodafoneExBd.tff');
+}
+@font-face {
+  font-family: "Vodafone Rg Bd";
+
+  src: url('fonts/VodafoneRgBd.tff');
+}
+@font-face {
+  font-family: "VodafoneRegular";
+
+  src: url('fonts/VodafoneRg.tff');
+}
+h1,
+.h1,
+.ql-head {
+  margin-bottom: 30px;
+  margin-left: 0;
+  font: 45px/1.125 "VodafoneRegular", Arial, sans-serif;
+  color: #e60000;
 }
 /*# sourceMappingURL=bootstrap-theme.css.map */

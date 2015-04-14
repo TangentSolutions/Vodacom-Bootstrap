@@ -42,28 +42,8 @@
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-@font-face {
-	font-family: "Vodafone Lt";
-	src:url('fonts/VodafoneLt.tff');
-}
-
-@font-face {
-	font-family: "Vodafone ExB";
-	src:url('fonts/VodafoneExBd.tff');
-}
-
-@font-face {
-	font-family: "Vodafone Rg Bd";
-	src:url('fonts/VodafoneRgBd.tff');
-}
-
-@font-face {
-	font-family: "Vodafone Rg";
-	src:url('fonts/VodafoneRg.tff');
-}
-
-@font-family-sans-serif:  "Vodafone Rg Bd", sans-serif;
-@font-family-serif:       "Vodafone Lt", serif;
+@font-family-sans-serif:  "VodafoneRegular", Arial, sans-serif;
+@font-family-serif:       "VodafoneLight", serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
@@ -72,8 +52,8 @@
 @font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
 @font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
 
-@font-size-h1:            floor((@font-size-base * 2.6)); // ~36px
-@font-size-h2:            floor((@font-size-base * 2.15)); // ~30px
+@font-size-h1:            floor((45px / 1.125)); // ~36px
+@font-size-h2:            floor((30px / 1.182)); // ~30px
 @font-size-h3:            ceil((@font-size-base * 1.7)); // ~24px
 @font-size-h4:            ceil((@font-size-base * 1.25)); // ~18px
 @font-size-h5:            @font-size-base;
@@ -184,7 +164,7 @@
 @btn-warning-bg:                 @brand-warning;
 @btn-warning-border:             darken(@btn-warning-bg, 5%);
 
-@btn-danger-color:               #000;
+@btn-danger-color:               #fff;
 @btn-danger-bg:                  @brand-danger;
 @btn-danger-border:              darken(@btn-danger-bg, 5%);
 
@@ -406,7 +386,7 @@
 // Inverted navbar
 // Reset inverted navbar basics
 @navbar-inverse-color:                      lighten(@gray-light, 15%);
-@navbar-inverse-bg:                         #222;
+@navbar-inverse-bg:                         #000;
 @navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
 
 // Inverted navbar links
@@ -523,7 +503,7 @@
 @state-warning-bg:               #FECB00;
 @state-warning-border:           darken(spin(@state-warning-bg, -10), 5%);
 
-@state-danger-text:              #000000;
+@state-danger-text:              #FFFFFF;
 @state-danger-bg:                #E60000;
 @state-danger-border:            darken(spin(@state-danger-bg, -10), 5%);
 
