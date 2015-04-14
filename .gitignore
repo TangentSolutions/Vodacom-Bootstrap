@@ -10,11 +10,12 @@ _site
 *.orig
 *.rej
 *.swo
-*.swp
+*.swps
 *.vi
 *.zip
 *~
-
+/dist
+/docs
 # OS or Editor folders
 ._*
 .cache
