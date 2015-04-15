@@ -612,4 +612,8 @@ h1,
   font: 45px/1.125 "VodafoneRegular", Arial, sans-serif;
   color: #e60000;
 }
+body {
+  background-image: url("/assets/img/vodacom-logo-bg.png");
+  background-repeat: no-repeat;
+}
 /*# sourceMappingURL=bootstrap-theme.css.map */
