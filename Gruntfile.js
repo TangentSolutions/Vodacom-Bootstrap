@@ -292,7 +292,7 @@ module.exports = function (grunt) {
       },
       assets: {
         expand: true,
-        src: 'assets/*',
+        src: 'assets/**/*',
         dest: 'dist/'
       },
       docs: {
