@@ -616,7 +616,16 @@ body {
   background-image: url("/assets/img/vodacom-logo-bg.png");
   background-repeat: no-repeat;
 }
-.text-primary {
+.text-success {
   color: #a8b400;
+}
+.text-info {
+  color: #00b0ca;
+}
+.text-warning {
+  color: #fecb00;
+}
+.text-danger {
+  color: #e60000;
 }
 /*# sourceMappingURL=bootstrap-theme.css.map */
