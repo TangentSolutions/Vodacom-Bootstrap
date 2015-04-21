@@ -587,22 +587,22 @@ fieldset[disabled] .btn-danger.active {
 @font-face {
   font-family: "VodafoneLight";
 
-  src: url('fonts/VodafoneLt.tff');
+  src: url('../fonts/VodafoneLt.ttf');
 }
 @font-face {
   font-family: "Vodafone ExB";
 
-  src: url('fonts/VodafoneExBd.tff');
+  src: url('../fonts/VodafoneExBd.ttf');
 }
 @font-face {
   font-family: "Vodafone Rg Bd";
 
-  src: url('fonts/VodafoneRgBd.tff');
+  src: url('../fonts/VodafoneRgBd.ttf');
 }
 @font-face {
   font-family: "VodafoneRegular";
 
-  src: url('fonts/VodafoneRg.tff');
+  src: url('../fonts/VodafoneRg.ttf');
 }
 h1,
 .h1,
@@ -613,7 +613,19 @@ h1,
   color: #e60000;
 }
 body {
-  background-image: url("/assets/img/vodacom-logo-bg.png");
-  background-repeat: no-repeat;
+  /*background-image: url("../assets/img/vodacom-logo-bg.png");
+  background-repeat: no-repeat;*/
+}
+.text-success {
+  color: #a8b400;
+}
+.text-info {
+  color: #00b0ca;
+}
+.text-warning {
+  color: #fecb00;
+}
+.text-danger {
+  color: #e60000;
 }
 /*# sourceMappingURL=bootstrap-theme.css.map */

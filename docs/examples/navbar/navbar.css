@@ -1,8 +1,113 @@
 body {
-  padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .navbar {
   margin-bottom: 20px;
+}
+
+.navbar-top p {
+  margin: 10px 0 10px;
+}
+
+.mod-nav .logo {
+  position: absolute;
+  left: 10px;
+  z-index: 10;
+}
+
+.mod-nav .logo img {
+  width: 35px;
+  margin-top: 5px;
+}
+
+.mod-nav .rhombus {
+  position: absolute;
+  z-index: 1;
+  width: 50px;
+  height: 20px;
+  background-color: #e60000;
+}
+
+.mod-nav .rhombus .rhombus-before {
+  position: absolute;
+  left: -19px;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  border-top: 34px solid #e60000;
+  border-left: 34px solid transparent;
+}
+
+.mod-nav .rhombus .rhombus-after {
+  position: absolute;
+  left: 41px;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  border-top: 34px solid #e60000;
+  border-right: 34px solid transparent;
+}
+@media only screen and (max-width: 768px) {
+  .voda-container {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .mod-nav {
+    position: relative;
+    padding: 0 0 0 80px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+
+  .mod-nav .logo {
+    position: absolute;
+    top: 24px;
+    left: 54px;
+    z-index: 10;
+    width: 60px;
+    height: auto;
+  }
+  /* line 362, ../sass/_header.scss */
+  .mod-nav .logo img {
+    width: 60px;
+    margin: 0;
+  }
+
+
+
+  .mod-nav .rhombus {
+    position: absolute;
+    top: -10px;
+    left: -32px;
+    width: 100px;
+    height: 80px;
+    background-color: #e60000;
+  }
+  /* line 375, ../sass/_header.scss */
+  .mod-nav .rhombus .rhombus-before {
+    position: absolute;
+    top: -52px;
+    left: 41px;
+    border-top: none;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid #e60000;
+    border-left: none;
+  }
+  /* line 384, ../sass/_header.scss */
+  .mod-nav .rhombus .rhombus-after {
+    position: absolute;
+    top: 80px;
+    left: -59px;
+    z-index: 1;
+    border-top: 200px solid #e60000;
+    border-right: 200px solid transparent;
+  }
+
+  .voda-container {
+    width: 970px;
+  }
 }
