@@ -17,3 +17,5 @@ Bootstrap theme for Vodacom
 3. grunt serve
 4. grunt docs - This is to only build the docs.
 5. jekyll serve - This is to run the http server where you will be able to view the docs
+
+    http://pstp001zatcrh:9001/
