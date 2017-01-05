@@ -20,7 +20,7 @@
 .btn-danger {
   text-shadow: 0 -1px 0 rgba(0,0,0,.2);
   @shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075);
-  .box-shadow(@shadow);
+  .box-shadow(none);
 
   // Reset the shadow
   &:active,
@@ -41,10 +41,10 @@
 
 // Mixin for generating new styles
 .btn-styles(@btn-color: #555) {
-  #gradient > .vertical(@start-color: @btn-color; @end-color: darken(@btn-color, 12%));
+  //#gradient > .vertical(@start-color: @btn-color; @end-color: darken(@btn-color, 12%));
   .reset-filter(); // Disable gradients for IE9 because filter bleeds through rounded corners; see https://github.com/twbs/bootstrap/issues/10620
   background-repeat: repeat-x;
-  border-color: darken(@btn-color, 14%);
+  border-color: darken(@btn-color, 0%);
 
   &:hover,
   &:focus  {
@@ -55,7 +55,7 @@
   &:active,
   &.active {
     background-color: darken(@btn-color, 12%);
-    border-color: darken(@btn-color, 14%);
+    border-color: darken(@btn-color, 0%);
   }
 
   &.disabled,
